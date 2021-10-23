@@ -1,0 +1,68 @@
+html{
+    background: #21142c;
+}
+header div.titre {
+    display: inline-flex;
+    flex: 5;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    background-color: #4833ff;
+}
+header div.titre h1{
+    display: flex;
+    flex: 5;
+    text-align: center;
+    color: white;
+}
+
+nav div.menu  {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+nav div.menu a {
+    /*float: left;*/
+    display: flex;
+    flex: 1;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5%;
+    border-color: #1a1e38;
+
+
+}
+ nav div.menu a:hover {
+    color: black;
+    background: #4833ff;
+}
+nav div.menu a.active {
+    background: #751762;
+}
+
+@media screen and (max-width: 600px) {
+    nav div.menu a:not(:first-child) {
+        display: none;
+    }
+
+}
+@media scroll {
+    header div.titre{
+        display:none;
+    }
+}
+img#harold {
+    display:none;
+}
+
+@media screen and (max-width:600px) {
+    img#harold {
+        display: initial;
+    }
+
+}
