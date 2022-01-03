@@ -37,7 +37,7 @@ nav div.menu a {
 
 
 }
- nav div.menu a:hover {
+nav div.menu a:hover {
     color: black;
     background: #4833ff;
 }
@@ -57,7 +57,7 @@ nav div.menu a.active {
     }
 }
 img#harold {
-    display:none;
+    display:float;
 }
 
 @media screen and (max-width:600px) {
@@ -65,4 +65,8 @@ img#harold {
         display: initial;
     }
 
+}
+
+.text-center {
+    text-align: center;
 }
